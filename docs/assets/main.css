@@ -264,28 +264,22 @@ pre {
 .page-heading {
   font-size: 20px; }
 
-
-  .post-list {
-    margin-left: 0;
-    list-style: none;
-  }
-
-  .post-list li {
-    margin-bottom: $spacing-unit;
+.post-list {
+  margin-left: 0;
+  list-style: none; }
+  .post-list > li {
+    margin-bottom: 30px;
     border-top: 1px dotted gray;
     min-height: 150px;
-    clear: both;
-  }
+    clear: both; }
+    .post-list > li > img {
+      float: right;
+      max-width: 200px;
+      max-height: 150px;
+      padding-bottom: 5px;
+      clear: both;
+      margin: 5px; }
 
-  .post-list li img {
-    float: right;
-    max-width: 200px;
-    max-height: 150px;
-    padding-bottom: 5px;
-    clear: both;
-    margin: 5px;
-  }
-  
 .post-meta {
   font-size: 14px;
   color: #828282; }
