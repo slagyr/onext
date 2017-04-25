@@ -32,4 +32,8 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - img
+  
+keep_files: 
+  - img
 
